@@ -72,6 +72,7 @@ for(var i = 0; i < numCases; i++){
 	// Compare item with credts until solution is obtained
 	// Complexity of O(N) for outer iteration through list and Olog(N) for binary search
 	// Total complexity = O(Nlog(N))
+	// Naive approach complexity would be O(N^2/2)
 
 	done = false;
 	k = 0;
